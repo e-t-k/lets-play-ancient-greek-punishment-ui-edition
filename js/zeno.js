@@ -83,7 +83,7 @@ function setupZeno() {
         click: function () {
           $zenoDialog.dialog('close');
           steps++;
-          if (steps === Number.MAX_SAFE_INTEGER) {
+          if ((steps === Number.MAX_SAFE_INTEGER) || plainText) {
             sigma = false;
             plainText = true;
           }
