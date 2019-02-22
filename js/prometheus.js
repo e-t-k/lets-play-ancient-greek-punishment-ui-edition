@@ -5,7 +5,7 @@
 // menu both options are disabled. Most of this is actually in the HTML.
 function setupPrometheus() {
   // Set up  the icon
-  let  $prometheusApp = $('#prometheus-icon');
+  let  $prometheusApp = $('#prometheus-app');
 
   setupApp($prometheusApp,'prometheus');
 
